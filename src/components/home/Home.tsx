@@ -10,7 +10,7 @@ function Home() {
     <>
       <Stack spacing={2} direction={"column"} className="main">
         <div>
-          <img src="/src/assets/logo.jpg" alt="logo" width={100} height={100} />
+          <img src="/logo.jpg" alt="logo" width={100} height={100} />
         </div>
         <Link to="/smoothies" style={{ textDecoration: "none" }}>
           <Button
