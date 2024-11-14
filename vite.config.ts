@@ -7,5 +7,5 @@ export default defineConfig({
     outDir: "build",
   },
   plugins: [react()],
-  base: "https://zhivko-kocev.github.io/green-menu/",
+  base: "/green-menu/",
 });
