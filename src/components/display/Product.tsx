@@ -14,10 +14,11 @@ function Product({ data }: P) {
         <Button
           variant="contained"
           sx={{
-            backgroundColor: "#8B68AD",
+            backgroundColor: "#6A1E55",
             fontWeight: "bold",
             "&:hover": { backgroundColor: "#8B6090" },
             borderRadius: "8px",
+            border: "1px solid #A64D79",
           }}
         >
           Назад

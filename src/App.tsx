@@ -9,7 +9,7 @@ import Sweets from "./components/sweets/Sweets"; // Example component for sweets
 function App() {
   return (
     <div id="#root">
-      <Router basename={"/green-menu/"}>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/smoothies" element={<Smoothies />} />

@@ -2,7 +2,6 @@ import "./Home.css";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Home() {
@@ -10,16 +9,17 @@ function Home() {
     <>
       <Stack spacing={2} direction={"column"} className="main">
         <div>
-          <img src="/logo.jpg" alt="logo" width={100} height={100} />
+          <img src="/logo.png" alt="logo" width={120} height={120} />
         </div>
         <Link to="/smoothies" style={{ textDecoration: "none" }}>
           <Button
             variant="contained"
             sx={{
-              backgroundColor: "#8B68AD",
+              backgroundColor: "#6A1E55",
               fontWeight: "bold",
               "&:hover": { backgroundColor: "#8B6090" },
               borderRadius: "8px",
+              border: "1px solid #A64D79",
             }}
           >
             Смути
@@ -29,10 +29,11 @@ function Home() {
           <Button
             variant="contained"
             sx={{
-              backgroundColor: "#8B68AD",
+              backgroundColor: "#6A1E55",
               fontWeight: "bold",
               "&:hover": { backgroundColor: "#8B6090" },
               borderRadius: "8px",
+              border: "1px solid #A64D79",
             }}
           >
             Сендвичи
@@ -42,10 +43,11 @@ function Home() {
           <Button
             variant="contained"
             sx={{
-              backgroundColor: "#8B68AD",
+              backgroundColor: "#6A1E55",
               fontWeight: "bold",
               "&:hover": { backgroundColor: "#8B6090" },
               borderRadius: "8px",
+              border: "1px solid #A64D79",
             }}
           >
             Здрави чинии
@@ -55,10 +57,11 @@ function Home() {
           <Button
             variant="contained"
             sx={{
-              backgroundColor: "#8B68AD",
+              backgroundColor: "#6A1E55",
               fontWeight: "bold",
               "&:hover": { backgroundColor: "#8B6090" },
               borderRadius: "8px",
+              border: "1px solid #A64D79",
             }}
           >
             Салати
@@ -68,10 +71,11 @@ function Home() {
           <Button
             variant="contained"
             sx={{
-              backgroundColor: "#8B68AD",
+              backgroundColor: "#6A1E55",
               fontWeight: "bold",
               "&:hover": { backgroundColor: "#8B6090" },
               borderRadius: "8px",
+              border: "1px solid #A64D79",
             }}
           >
             Слатки
@@ -79,17 +83,17 @@ function Home() {
         </Link>
         <Stack direction="row" spacing={2} className="socials">
           <a
-            href="https://facebook.com"
+            href="https://www.instagram.com/take.eat.easy.skopje/"
             target="_blank"
             rel="noopener noreferrer"
+            style={{
+              color: "white",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
           >
-            <FacebookIcon sx={{ color: "white" }} />
-          </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+            <div>Follow us on -{">"} </div>{" "}
             <InstagramIcon sx={{ color: "white" }} />
           </a>
         </Stack>

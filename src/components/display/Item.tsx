@@ -15,12 +15,13 @@ export default function Item({ name, desc, price }: I) {
       style={{
         maxWidth: 250,
         maxHeight: 200,
-        backgroundColor: "#38383D",
+        backgroundColor: "#6A1E55",
         color: "white",
         display: "flex",
         flexDirection: "column",
         alignItems: "start",
         paddingTop: 3,
+        border: "2px solid #A64D79",
       }}
     >
       <CardContent>
@@ -29,7 +30,7 @@ export default function Item({ name, desc, price }: I) {
           variant="h5"
           component="div"
           sx={{
-            backgroundColor: "#8B68AD",
+            backgroundColor: "#3B1C32",
             display: "flex",
             alignItems: "start",
             padding: 1,
